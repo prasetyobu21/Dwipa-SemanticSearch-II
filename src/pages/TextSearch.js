@@ -18,7 +18,6 @@ const TextSearch = props => {
           <option value="BorobudurTemple">Borobudur Temple</option>
           <option value="PrambananTemple">Prambanan Temple</option>
         </Form.Select>
-        {/* <p>{props.attraction}</p> */}
         <Stack direction="horizontal" gap={3} className="mt-3 mb-3">
           <Button variant="primary" onClick={props.searchPharmacy}>
             Search Pharmacy
